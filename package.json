@@ -1,0 +1,25 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:dev": "nodemon src/server.js",
+    "pretest": "eslint src/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "@lokidb/fs-storage": "^2.1.0",
+    "@lokidb/loki": "^2.1.0",
+    "joi": "^17.13.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "eslint": "^9.1.1",
+    "globals": "^15.1.0",
+    "nodemon": "^3.1.0"
+  }
+}
